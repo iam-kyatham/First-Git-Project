@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+# If else conditions in Linux
+
+a=12 , b=20
+
+if [$a -lt $b]
+
+then
+    echo "a is less than b"
+
+else 
+    echo "b is less than a"
+
+fi
+
+: <<'END_COMMENT'
+ If else conditions in Linux
+
+a=12 , b=20
+
+if [$a -gt $b]
+
+then
+    echo "a is greater than b"
+
+else
+    echo "b is greater than a"
+
+fi
+END_COMMENT
+

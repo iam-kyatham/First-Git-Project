@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# To list all the processes
+
+#ps -ef | grep python3
+
+# To print only numbers divided by 3 & 5, not 15
+
+
+
+#Divisible by 3 (Use if condition) 3 6 9 12 15
+#Divisible by 5 (Use if condition) 5 10 15
+#And not divisible by 15 (not if)
+
+#Range (1..50)
+
+# code
+
+
+
+for i in {1..30}; do
+	if [ $((i % 3)) = 0 ] || [ $((i % 5)) = 0 ] && [ $((i % 15)) != 0 ];
+then 
+	echo $i
+
+fi
+done
+ 
+: '
+
+# To print number of  "S" in "Mississippi" word
+
+x=Mississippi
+
+grep -o "s" <<<"$x" | wc -l
+
+'
+
